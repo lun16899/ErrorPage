@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube 正在搶修中</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maintenance-container">
+        <div class="loader"></div>
+        
+        <h1>技術人員正在全力搶修中</h1>
+        <p>我們正在努力修復問題，請稍後再試。<br>系統正在嘗試重新連線...</p>
+        
+        <p class="status-text">狀態：<span id="status-display">正在偵測伺服器...</span></p>
+        
+        <button onclick="retryConnection()" class="retry-btn">手動重試</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
